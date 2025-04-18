@@ -12,8 +12,8 @@ memerace_contract = "3WMtUx9sjZyXirzj3uegBG3rFspTPgQqu6X2jtBc7fks"
 url = "https://api.apr.dev"
 
 [provider]
-# cluster = "localnet"
-cluster = "Devnet"
+cluster = "localnet"
+# cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

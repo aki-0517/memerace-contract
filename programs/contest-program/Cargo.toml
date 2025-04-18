@@ -1,0 +1,22 @@
+[package]
+name = "contest-program"
+version = "0.1.0"
+description = "Solana contest platform for hosting contests, submitting entries, and voting on winners"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "contest_program"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.0"
+anchor-spl = "0.31.0"
+getrandom = { version = "0.2", features = ["js"] }
