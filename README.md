@@ -1,4 +1,7 @@
-### deploy手順
+### client app repo
+- https://github.com/aki-0517/memerace-web
+
+### deploy手順（anchor v0.31.0)
 - anchor build --no-idl
 - 違うterminalで solana-test-validator
 - anchor test --no-idl  --skip-local-validator
